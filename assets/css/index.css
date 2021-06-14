@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a, a:hover{
+    text-decoration: none; 
+}
+ul, li{
+    list-style: none;
+}
+body{
+    background-color: #19222d;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1150px;
+    width: 1150px;
+}
+.menu{
+    padding: 10px;
+}
+.menu-item{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    max-width: 100%;
+}
+.menu a{
+    color: #fff;
+}
+.menu img{
+    width: 80px;
+    height: 80px;
+}
+.menu .logo h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+}
+.menu nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+}
+.menu nav ul li{
+    margin-left: 32px;
+    font-weight: 300;
+    font-size: 14px;
+}
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    max-width: 100%;
+    padding: 20px;
+}
+.section a.title{
+    background-color: #273341;
+    color: #d79559;
+    padding: 12px;
+    border-radius: 20px;
+}
+.section .description{
+    margin-top: 20px;
+}
+.section .description h2{
+    color: #fff;
+    font-size: 60px;
+}
+.section .description p{
+    color: #fafafa;
+    opacity: 0.7;
+    font: 14px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+.description a{
+    background-color: #29b76b;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, red , yellow);
+}
+.section .list{
+    width: 600px;
+}
