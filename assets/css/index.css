@@ -55,9 +55,11 @@ body{
 .section{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 100px;
+    margin-top: 20px;
     max-width: 100%;
     padding: 20px;
+    align-items: center;
+    justify-content: space-between;
 }
 .section a.title{
     background-color: #273341;
@@ -79,6 +81,31 @@ body{
     margin-top: 22px;
     margin-bottom: 22px;
 }
+@media (max-width: 897px) {
+    .section{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section .description h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    .section .list{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section .list .description{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 462px;
+    }
+}
 .description a{
     background-color: #29b76b;
     padding: 10px;
@@ -93,4 +120,7 @@ body{
 }
 .section .list{
     width: 600px;
+}
+.imgCoffe img{
+    max-width: 300px;
 }
